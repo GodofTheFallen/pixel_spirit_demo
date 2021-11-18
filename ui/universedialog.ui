@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>UniverseDialog</class>
+ <widget class="QDialog" name="UniverseDialog">
+  <property name="windowModality">
+   <enum>Qt::ApplicationModal</enum>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>320</width>
+    <height>440</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Meet A Spirit</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normalon>:/icon.png</normalon>
+   </iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">#UniverseDialog {background-color: rgb(255, 255, 255);}</string>
+  </property>
+  <widget class="QLabel" name="UniverseHint">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>280</y>
+     <width>300</width>
+     <height>90</height>
+    </rect>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="../assets/UI/resources.qrc">:/SpiritUniverse/Hint.png</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="SpiritImgLarge">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>20</y>
+     <width>240</width>
+     <height>240</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="Greeting">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>10</y>
+     <width>160</width>
+     <height>80</height>
+    </rect>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="../assets/UI/resources.qrc">:/SpiritUniverse/Bubble.png</pixmap>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="UniverseYesButton">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>400</y>
+     <width>90</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="icon">
+    <iconset resource="../assets/UI/resources.qrc">
+     <normaloff>:/SpiritUniverse/yes.png</normaloff>:/SpiritUniverse/yes.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>90</width>
+     <height>30</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="UniverseNoButton">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>400</y>
+     <width>90</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="icon">
+    <iconset resource="../assets/UI/resources.qrc">
+     <normaloff>:/SpiritUniverse/no.png</normaloff>:/SpiritUniverse/no.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>90</width>
+     <height>30</height>
+    </size>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="../assets/UI/resources.qrc"/>
+  <include location="../assets/UI/resources.qrc"/>
+ </resources>
+ <connections/>
+</ui>

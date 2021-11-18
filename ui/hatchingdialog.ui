@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>HatchingDialog</class>
+ <widget class="QDialog" name="HatchingDialog">
+  <property name="windowModality">
+   <enum>Qt::NonModal</enum>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>235</width>
+    <height>250</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Breeding</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normalon>:/icon.png</normalon>
+   </iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">#HatchingDialog{background-color: rgb(255, 255, 255);}</string>
+  </property>
+  <widget class="QLineEdit" name="FatherEdit">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>70</y>
+     <width>120</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Press Start 2P</family>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>00001</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="MotherEdit">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>150</y>
+     <width>120</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Press Start 2P</family>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>00002</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="SELECTED">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>20</y>
+     <width>136</width>
+     <height>14</height>
+    </rect>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="../assets/UI/resources.qrc">:/HatchingHouse/SELECTED_.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="Love">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>110</y>
+     <width>20</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="../assets/UI/resources.qrc">:/HatchingHouse/love.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>69</x>
+     <y>200</y>
+     <width>102</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>:/HatchingHouse/BREED.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>102</width>
+     <height>30</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QLabel" name="No1">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>70</y>
+     <width>60</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Press Start 2P</family>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>No.</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="No2">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>150</y>
+     <width>60</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Press Start 2P</family>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>No.</string>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="../assets/UI/resources.qrc"/>
+ </resources>
+ <connections/>
+</ui>

@@ -1,0 +1,21 @@
+<RCC>
+  <qresource>
+    <file>HatchingHouse/Born/new.png</file>
+    <file>HatchingHouse/BREED.png</file>
+    <file>HatchingHouse/love.png</file>
+    <file>HatchingHouse/SELECTED_.png</file>
+    <file>SpiritUniverse/Bubble.png</file>
+    <file>SpiritUniverse/Hint.png</file>
+    <file>SpiritUniverse/no.png</file>
+    <file>SpiritUniverse/yes.png</file>
+    <file>SpiritHouse/go-hatching-button.png</file>
+    <file>SpiritHouse/spirit-universe-button.png</file>
+    <file>MainWindow/main-page-welcome.png</file>
+    <file>MainWindow/spirit-house-button.png</file>
+    <file>MainWindow/title.png</file>
+    <file>background.png</file>
+    <file>icon.png</file>
+    <file>Press-Start-2P.ttf</file>
+    <file>topBar.png</file>
+  </qresource>
+</RCC>

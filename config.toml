@@ -1,0 +1,19 @@
+DEBUG = true
+VERSION = 0.1
+
+[GENE]
+LENGTH = 17
+TYPE = [4, 4, 4, 3, 3, 2, 4, 7, 6, 8, 6, 3, 6, 6, 5, 2, 4]
+LENGTH_ASSERR_MSG = 'Wrong gene length, expect {} but {}.'
+TYPE_ASSERR_MSG = 'Wrong gene type, expect 0 to {} but {}.'
+MUTATION_RATE = 0.1
+
+[WILD]
+SAFE_REPR = 0.5
+DAILY_INC = 10
+WILD_MIN = 10
+WILD_MAX = 20
+
+[DATABASE]
+name = 'petaspirit.db'
+engine = 'peewee.SqliteDatabase'

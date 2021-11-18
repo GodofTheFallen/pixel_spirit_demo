@@ -1,0 +1,37 @@
+[tail-wings]
+len = 3
+type = [3, 3, 2]
+mean = ['twn', 'shape', 'color']
+
+[skin]
+len = 1
+type = [4]
+mean = ['color']
+
+[clothes]
+len = 2
+type = [7, 6]
+mean = ['shape', 'color']
+
+[hair-hat]
+len = 3
+type = [8, 6, 3]
+mean = ['hat', 'color', 'hair']
+
+[neck]
+len = 2
+type = [6, 6]
+mean = ['shape', 'color']
+
+[face]
+len = 1
+type = [5]
+
+[ear]
+len = 1
+type = [2]
+
+[antenna]
+len = 1
+type = [4]
+
